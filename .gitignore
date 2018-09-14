@@ -1,12 +1,24 @@
-.idea/
-*.iml
-.svn/*
 target/
-*.class
-*.classes
-.settings
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
 .classpath
+.factorypath
 .project
-.log
-*.txt
-classes/
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
